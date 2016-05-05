@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_title"
+    >
+
+    <EditTextPreference
+        android:key="@string/pref_edittextpref_key"
+        android:title="@string/pref_edittextpref_title"
+        android:summary="@string/pref_edittextpref_summary"
+        ></EditTextPreference>
+
+    <ListPreference
+        android:key="@string/pref_listpref_key"
+        android:title="@string/pref_listpref_title"
+        android:summary="@string/pref_listpref_summary"
+        android:defaultValue="2"
+        android:entries="@array/listprefArray"
+        android:entryValues="@array/listprefValues"
+        ></ListPreference>
+
+
+
+</PreferenceScreen>

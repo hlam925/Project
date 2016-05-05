@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="pref_checkboxpref_title_text">Dictionary Head?</string>
+    <string name="pref_checkboxpref_key_text">checkbox_preference</string>
+    <string name="pref_checkboxpref_summary_text">Do you want to a dictionary head?</string>
+    <string name="pref_listpref_key">mode</string>
+    <string name="pref_listpref_summary">Which mode would you like to work in today?</string>
+    <string name="pref_listpref_title">Mode</string>
+    <string name="pref_edittextpref_key">username</string>
+    <string name="pref_edittextpref_summary">Please enter your username</string>
+    <string name="pref_edittextpref_title">Your Name</string>
+    <string name="activity_main_toolbar_title">Dictionary</string>
+    <string name="pref_title">Mode preferences</string>
+    <string name="dictionary_fragment_edittext_hint">type in word</string>
+    <string name="dictionary_fragment_textview_hint">definition</string>
+</resources>
